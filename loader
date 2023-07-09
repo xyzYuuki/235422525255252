@@ -79,7 +79,7 @@ if checkAccess(wl_key) then
 
 
     elseif game.PlaceId == placeID2 then
-        loadstring(game:HttpGet("https://drive.google.com/uc?export=download&id=1Y1_-yoQ_KEAX0_8EURm55eAiaOJTbE2f", true))()  -- Mapa 1
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xyzYuuki/235422525255252/main/Map2", true))()  -- Mapa 1
     elseif game.PlaceId == placeID3 then
         loadstring(game:HttpGet("https://drive.google.com/uc?export=download&id=1Bmngkc5YDv-UZKmdiRe5KRoEk7mgT40b", true))() -- Mapa2
     elseif game.PlaceId == placeID4 then
@@ -89,7 +89,7 @@ if checkAccess(wl_key) then
     elseif game.PlaceId == placeID6 then
         loadstring(game:HttpGet("https://drive.google.com/uc?export=download&id=1Bmngkc5YDv-UZKmdiRe5KRoEk7mgT40b", true))() -- Mapa2
                 elseif game.PlaceId == placeID7 then
-        loadstring(game:HttpGet("https://drive.google.com/uc?export=download&id=1Y1_-yoQ_KEAX0_8EURm55eAiaOJTbE2f", true))() -- Mapa1
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/xyzYuuki/235422525255252/main/Map2", true))() -- Mapa1
                 else
                     error("Place ID inválido.")
                 end

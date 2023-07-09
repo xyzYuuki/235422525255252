@@ -35,7 +35,6 @@ end
 
 WhitelistKeys = {
     key = "0E9085C5-C7BD-4C84-8CFA-580FEA22AE06", --Yuki Owner
-    key2 = "", --None
 }
 
 function checkAccess(key)

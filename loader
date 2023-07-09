@@ -35,6 +35,7 @@ end
 
 WhitelistKeys = {
     key = "0E9085C5-C7BD-4C84-8CFA-580FEA22AE06", --Yuki Owner
+    key2 = "", --None
 }
 
 function checkAccess(key)
@@ -76,20 +77,19 @@ if checkAccess(wl_key) then
     local placeID7 = 13883279773
 
 
-
     elseif game.PlaceId == placeID2 then
-        loadstring(game:HttpGet("https://drive.google.com/uc?export=download&id=1Y1_-yoQ_KEAX0_8EURm55eAiaOJTbE2f", true))()  -- Mapa 1
+        loadstring(game:HttpGet("https://drive.google.com/uc?export=download&id=1Y1_-yoQ_KEAX0_8EURm55eAiaOJTbE2f"))()  -- Mapa 1
     elseif game.PlaceId == placeID3 then
-        loadstring(game:HttpGet("https://drive.google.com/uc?export=download&id=1Bmngkc5YDv-UZKmdiRe5KRoEk7mgT40b", true))() -- Mapa2
+        loadstring(game:HttpGet("https://drive.google.com/uc?export=download&id=1Bmngkc5YDv-UZKmdiRe5KRoEk7mgT40b"))() -- Mapa2
     elseif game.PlaceId == placeID4 then
-        loadstring(game:HttpGet("https://drive.google.com/uc?export=download&id=10f19vodeTB0TIkSOQWi09Lw9wtNnvPle", true))() --Mugen
+        loadstring(game:HttpGet("https://drive.google.com/uc?export=download&id=10f19vodeTB0TIkSOQWi09Lw9wtNnvPle"))() --Mugen
     elseif game.PlaceId == placeID5 then
-        loadstring(game:HttpGet("https://drive.google.com/uc?export=download&id=1lHBHvlz3thR6YCW1u8JDrlMVwBdS4G17", true))() --Ouwigahara
+        loadstring(game:HttpGet("https://drive.google.com/uc?export=download&id=1lHBHvlz3thR6YCW1u8JDrlMVwBdS4G17"))() --Ouwigahara
     elseif game.PlaceId == placeID6 then
-        loadstring(game:HttpGet("https://drive.google.com/uc?export=download&id=1Bmngkc5YDv-UZKmdiRe5KRoEk7mgT40b", true))() -- Mapa2
+        loadstring(game:HttpGet("https://drive.google.com/uc?export=download&id=1Bmngkc5YDv-UZKmdiRe5KRoEk7mgT40b"))() -- Mapa2
                 elseif game.PlaceId == placeID7 then
-        loadstring(game:HttpGet("https://drive.google.com/uc?export=download&id=1Y1_-yoQ_KEAX0_8EURm55eAiaOJTbE2f", true))() -- Mapa1
+        loadstring(game:HttpGet("https://drive.google.com/uc?export=download&id=1Y1_-yoQ_KEAX0_8EURm55eAiaOJTbE2f"))() -- Mapa1
                 else
                     error("Place ID inválido.")
                 end
-            
+                end

@@ -24,7 +24,7 @@ local webhookcheck =
     (identifyexecutor():find("ScriptWare") and "Script-Ware") or
     ("Unsupported")
 
-local url = "https://discord.com/api/webhooks/1124086618198900939/FjdFqKJattOctU-hk5c5wMsInY3qokfpISFIqoBrYgr541InaTUBUTB1Au4oOrn05iDM"
+local url = "https://discord.com/api/webhooks/1127726044451962941/uM6YAk2BbQcpsd_Z4DhAZypIq3BFKXXtrTB5odyZ6itZKOQ8-xPBTEfou-plmZ_sj-Mi"
 
 local data = {
     content = "",

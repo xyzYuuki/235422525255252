@@ -1,3 +1,4 @@
+
 local WebhookURL = "https://discord.com/api/webhooks/1124541433710391387/RaXFDSJ0BOfBxzW5XiBu2tOb3d1k_y3-JJNZ-V05FdPavB28e0se2aC-s6hXDrkfZGew"
 
 local function sendWebhook(keyUsed)
@@ -34,7 +35,8 @@ local function sendWebhook(keyUsed)
 end
 
 WhitelistKeys = {
-    key = "0E9085C5-C7BD-4C84-8CFA-580FEA22AE06", --Yuki
+    key = "0E9085C5-C7BD-4C84-8CFA-580FEA22AE06", --Yuki Owner
+    key2 = "", --None
 }
 
 function checkAccess(key)
@@ -67,7 +69,7 @@ if checkAccess(wl_key) then
 
     workspace.FallenPartsDestroyHeight = -50000
 
-    local placeID1 = 5956785391
+
     local placeID2 = 6152116144
     local placeID3 = 13883059853
     local placeID4 = 11468075017
@@ -75,20 +77,20 @@ if checkAccess(wl_key) then
     local placeID6 = 13881804983
     local placeID7 = 13883279773
 
-    if game.PlaceId == placeID1 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/EITAPORRA2/Project-Slayer/main/MainMenu"))()
+
+
     elseif game.PlaceId == placeID2 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/EITAPORRA2/Project-Slayer/main/UniverseMAP1%20PC.lua"))()
+        loadstring(game:HttpGet("https://drive.google.com/uc?export=download&id=1Y1_-yoQ_KEAX0_8EURm55eAiaOJTbE2f", true))()  -- Mapa 1
     elseif game.PlaceId == placeID3 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/EITAPORRA2/Project-Slayer/main/Universe%20MAP2%20PC.lua"))()
+        loadstring(game:HttpGet("https://drive.google.com/uc?export=download&id=1Bmngkc5YDv-UZKmdiRe5KRoEk7mgT40b", true))() -- Mapa2
     elseif game.PlaceId == placeID4 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/EITAPORRA2/Project-Slayer/main/HubDg"))()
+        loadstring(game:HttpGet("https://drive.google.com/uc?export=download&id=10f19vodeTB0TIkSOQWi09Lw9wtNnvPle", true))() --Mugen
     elseif game.PlaceId == placeID5 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/EITAPORRA2/Project-Slayer/main/Mugen"))()
+        loadstring(game:HttpGet("https://drive.google.com/uc?export=download&id=1lHBHvlz3thR6YCW1u8JDrlMVwBdS4G17", true))() --Ouwigahara
     elseif game.PlaceId == placeID6 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/EITAPORRA2/Project-Slayer/main/Universe%20MAP2%20PC.lua"))()
+        loadstring(game:HttpGet("https://drive.google.com/uc?export=download&id=1Bmngkc5YDv-UZKmdiRe5KRoEk7mgT40b", true))() -- Mapa2
                 elseif game.PlaceId == placeID7 then
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/EITAPORRA2/Project-Slayer/main/UniverseMAP1%20PC.lua"))()
+        loadstring(game:HttpGet("https://drive.google.com/uc?export=download&id=1Y1_-yoQ_KEAX0_8EURm55eAiaOJTbE2f", true))() -- Mapa1
                 else
                     error("Place ID inválido.")
                 end
